@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- Created By CodingNepal -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +6,9 @@
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" ></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
@@ -40,7 +42,7 @@
             <div class="home-content">
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Aron Balais</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <div class="text-3">And I'm  <span class="typing"></span></div>
                 <a href="#contact">Get in touch</a>
             </div>
         </div>
@@ -55,8 +57,8 @@
                     <img src="images/aboutme.png" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Aron and I'm a <span class="typing-2"></span></div>
-                    <p>Hello, I am currently student of San Carlos University and one of the scholar of Passerelles Numeriques Philippines. I see myself as a persistent student. I'm always looking for a way to solve problems and equip to face challenges. I've recently interested in tech stuff, like web developing and designing and notice that this kind of stuff is really challenging but also amusing. </p>
+                    <div class="text">I'm Aron and I'm <span class="typing-2"></span></div>
+                    <p>Hello, I am currently student of San Carlos University and one of the scholar of Passerelles Numeriques Philippines. I see myself as a persistent student. I'm always looking for a way to solve problems and equip to face challenges. I've recently interested in tech. stuff, like web developing and designing and notice that this kind of stuff is really challenging but also amusing. </p>
                     <a href="#">Read more</a>
                 </div>
             </div>
@@ -69,21 +71,21 @@
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
-                        <a href="#"><i class="fas fa-basketball-ball"></i></a>
+                        <i class="fas fa-basketball-ball" data-toggle="modal" data-target="#exampleModalCenter"></i>
                         <div class="text">Basket Ball</div>
                         <p>I really love to play basketball especially with friends.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <a href="#"><i class="fas fa-table-tennis"></i></a>
+                        <i class="fas fa-table-tennis" data-toggle="modal" data-target="#exampleModalCenter"></i>
                         <div class="text">Table Tennis</div>
                         <p>I like to play this game as it makes me feel less stress.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <a href="#"><i class="fas fa-gamepad"></i></a>
+                        <i class="fas fa-gamepad" data-toggle="modal" data-target="#exampleModalCenter"></i>
                         <div class="text">Online Games</div>
                         <p>This one way of my relaxation and gives enjoyment.</p>
                     </div>
@@ -93,6 +95,18 @@
         </div>
     </section>
 
+    <!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+       
+        <div class="modal-body">
+          <video src=""></video>
+        </div>
+       
+      </div>
+    </div>
+  </div>
 
     <section class="skills" id="skills">
         <div class="max-width">

@@ -40,7 +40,7 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Cute", "Responsible","Cheerful", "Possitive Person"],
+        strings: ["22 years old", "Born in Barugo Leyte","Single", "a Roman Catholic"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
